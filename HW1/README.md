@@ -2,6 +2,9 @@
 
 
 ## Predicting PM2.5  
+model: linear regression
+根据xi:前9个小时的18种空气成分值
+预测y:第10个小时的PM2.5
 
 ## Data   
 - train.csv:每个月前20天每个小时的气象资料（每小时有18种测资）共12个月
